@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Griffy&display=swap');
+
+header {
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(102, 80, 165, 0.75));
+    display: flex;
+    align-items: center;
+    z-index: 100;
+}
+
+header .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 25px;
+}
+
+header .logo {
+    width: 200px;
+    font-family: 'Griffy', cursive;
+    text-transform: uppercase;
+    color: #FFC907;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+header .left, header .right {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .links {
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .link {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #A1B1CB;
+    text-decoration: none;
+}
+
+header .search {
+    width: 50%;
+    height: 37px;
+    background-color: #3B567D;
+    border-radius: 19px;
+    padding: 5px 20px;
+    display: flex;
+}
+
+header .search-icon {
+    cursor: pointer;
+    color: #A1B1CB;
+    font-size: 24px;
+}
+
+header input {
+    width: 90%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #A1B1CB;
+}
+
+header input::placeholder {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #A1B1CB;
+    text-transform: uppercase;
+}
+
+header .user-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+}
+
+header .icon {
+    color: white;
+    font-size: 32px;
+}
+
+header .large {
+    border-radius: 27px;
+    border: 3px solid white;
+    font-size: 45px;
+    padding: 2px;
+}
