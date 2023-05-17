@@ -1,0 +1,57 @@
+footer {
+    height: 360px;
+    background: #161214;
+    padding: 50px 100px 20px 125px;
+}
+
+footer>div {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    row-gap: 10px;
+    justify-content: space-between;
+}
+
+footer h3 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+footer p, footer .icon {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    text-align: left;
+    margin: 0;
+    cursor: pointer;
+}
+
+footer button {
+    width: 131px;
+    height: 34px;
+    background: #362F33;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    justify-content: center;
+}
+
+footer .links .icon {
+    text-align: left;
+    font-size: 30px;
+}
+
+footer>p {
+    margin-top: 20px;
+    text-align: center;
+}
+
+

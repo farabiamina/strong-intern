@@ -1,0 +1,25 @@
+/*header {*/
+/*    display: none;*/
+/*}*/
+
+/*footer {*/
+/*    display: none;*/
+/*}*/
+
+/*nav {*/
+/*    display: none;*/
+/*}*/
+
+#video {
+    width: 100%;
+    min-height: 100vh;
+}
+
+#video iframe {
+    border: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    min-height: 100vh;
+}
